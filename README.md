@@ -145,10 +145,9 @@ If you were successfull, you should be able to see yourself on your device.
 ### Part 3: Creating a UIImage from User's Capture Data ##
 Next, we'll want to create a single UIImage from this data we recieve from the user's camera, so we can send it as a Snap (as you did in Project 2 Part 1).
 	    
-To get the photo from the user's camera, we'll be using our `photoOutput` variable we defined previously. Mainly, we will just be using the variable for its method `
+To get the photo from the user's camera, we'll be using our `photoOutput` variable we defined previously. Mainly, we will just be using the variable for its method `capturePhoto`.
 
-
-`. This is a bit tricky, so here are the steps you need to do this:
+This is a bit tricky, so here are the steps you need to do this:
 
 - Navigate over to `@IBAction func takePhoto(_ sender: UIButton)`. This IBAction is connected to the "camera button" in our view. Here we will want to "capture the photo" using our `photoOutput` variable. To do this, we will use the AVCapturePhotoOutput method `capturePhoto`. Check out the documentation for this method here: [`capturePhoto` API Reference](https://developer.apple.com/reference/avfoundation/avcapturephotooutput/1648765-capturephoto)
 - From the reference link for `capturePhoto`, you can see that the method takes in two parameters, `settings` and a `delegate`. The settings refers to what settings should be used when taking the photo (i.e. whether or not flash should be enabled, if the photo should be in high resolution, etc.  
