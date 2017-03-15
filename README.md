@@ -1,3 +1,6 @@
+# This lab isn't finished - you're not encouraged to start on it before lab #
+
+
 # Lab 5 : AVFoundation #
 Note: Please bring an iPhone or iPad with a camera along with a lightning USB cable to lab if you are able to!
 
