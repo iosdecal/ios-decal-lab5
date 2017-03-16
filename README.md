@@ -9,7 +9,7 @@ Tuesday, March 21st at 11:59 pm
 
 ## Overview ##
 
-![](/README-images/README-0.gif)
+![](/README-images/README-preview.gif)
 
 In today's lab, you'll get some experience with part of AVFoundation by creating a camera for your Snapchat Clone, while also becoming more familiar with handling user permissions and looking up information in Apple Developer Documentation. Since this lab requires a hardware camera, you'll be testing your application on an iOS device (iPhone/iPad), rather than in the simulator. Since not all students will have iOS devices, **please partner up with another student who does not have an iPhone/iPad or USB cable if you have iOS device with you.**
 
