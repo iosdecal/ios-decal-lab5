@@ -24,19 +24,11 @@ class ImagePickerViewController: UIViewController {
     // TODO: add your instance methods for photo taking here
     
     override func viewDidLoad() {
-        // TODO: call captureNewSession here (make sure to do it before `addSubview` is called
-        
+
         super.viewDidLoad()
         
-        // No need to edit: just adds our subviews to the view
-        // (we have to do this programmatically, because we'll be adding a
-        // previewLayer later, which would block our UI elements if we just did it 
-        // in Storyboard).
-        view.addSubview(imageViewOverlay)
-        view.addSubview(takePhotoButton)
-        view.addSubview(flipCameraButton)
-        view.addSubview(sendImageButton)
-        view.addSubview(cancelButton)
+        // TODO: call captureNewSession here
+        
         toggleUI(isInPreviewMode: false)
     }
     
@@ -98,6 +90,13 @@ class ImagePickerViewController: UIViewController {
             imageViewOverlay.image = nil
             flipCameraButton.isHidden = false
         }
+        
+        // Makes sure that all of the buttons appear in front of the previewLayer
+        view.bringSubview(toFront: imageViewOverlay)
+        view.bringSubview(toFront: sendImageButton)
+        view.bringSubview(toFront: takePhotoButton)
+        view.bringSubview(toFront: flipCameraButton)
+        view.bringSubview(toFront: cancelButton)
     }
     
     @IBAction func cancelButtonWasPressed(_ sender: UIButton) {
