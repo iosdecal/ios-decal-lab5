@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "353206E79D90CCC5C5A112F70F9B0B622F72E107",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "762A2CB24167ADEF09576B603B31816FE8A51B0C" : 9223372036854775807,
+    "353206E79D90CCC5C5A112F70F9B0B622F72E107" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F678F5AB-ED28-42C2-92BB-5EFAA8A32842",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "762A2CB24167ADEF09576B603B31816FE8A51B0C" : "..",
+    "353206E79D90CCC5C5A112F70F9B0B622F72E107" : "ios-decal-lab5\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Snapchat Camera Lab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Snapchat Camera Lab.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mqfan\/ios-decal-lab5",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "353206E79D90CCC5C5A112F70F9B0B622F72E107"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mqfan\/hacktech2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "762A2CB24167ADEF09576B603B31816FE8A51B0C"
+    }
+  ]
+}
