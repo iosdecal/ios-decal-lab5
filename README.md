@@ -201,7 +201,7 @@ Once you have finished, please submit your files to [Gradescope](https://gradesc
 
 To submit, please upload your code to either GitHub or Bitbucket, and use the "Github" or "Bitbucket" submission feature on Gradescope (we've experienced the fewest amount of bugs with students who have submitted this way). Please check out the [slides in Lecture 3](http://iosdecal.com/Lectures/Lecture3.pdf) for step-by-step submission instructions if you're confused about how to do this (or ask a TA!)
 
-Checkoff Form for  Akilesh's Lab - 
+Checkoff Form for  Akilesh's Lab - https://goo.gl/forms/vZatBoxZlfLPAy9n2
 
 Checkoff Form for Paige's Lab - https://goo.gl/forms/OqOShJa2FmdCbLoi1
 
