@@ -45,6 +45,9 @@
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                         </textAttributes>
                     </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bcf-Rn-X3z"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5c-9q-4ZG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,14 +140,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6vW-ya-d7n">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqe-9x-7hi">
-                                <rect key="frame" x="16" y="28" width="50" height="50"/>
+                                <rect key="frame" x="16" y="8" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cqe-9x-7hi" secondAttribute="height" multiplier="1:1" id="I8i-rw-v3N"/>
                                     <constraint firstAttribute="height" constant="50" id="WJO-DN-xiy"/>
@@ -152,7 +155,7 @@
                                 <state key="normal" title="Button" image="cancel"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwg-R0-wI2">
-                                <rect key="frame" x="137.5" y="559" width="100" height="100"/>
+                                <rect key="frame" x="137.5" y="446" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="A5D-jD-QDu"/>
                                     <constraint firstAttribute="width" secondItem="Xwg-R0-wI2" secondAttribute="height" multiplier="1:1" id="yIX-tx-coV"/>
@@ -160,15 +163,15 @@
                                 <state key="normal" image="takePhoto"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-Rm-w8Y">
-                                <rect key="frame" x="309" y="584.5" width="50" height="50"/>
+                                <rect key="frame" x="309" y="471.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="RuM-gc-Pk1"/>
                                     <constraint firstAttribute="width" secondItem="hbQ-Rm-w8Y" secondAttribute="height" multiplier="1:1" id="y9I-bu-8D8"/>
                                 </constraints>
                                 <state key="normal" title="&gt;" image="goButton"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbV-W7-o6R">
-                                <rect key="frame" x="16" y="28" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbV-W7-o6R">
+                                <rect key="frame" x="88" y="20" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BlF-wP-RCy"/>
                                     <constraint firstAttribute="width" secondItem="zbV-W7-o6R" secondAttribute="height" multiplier="1:1" id="UgC-Z6-sid"/>
@@ -195,6 +198,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Snapchat 2.0" id="1DI-gn-L1G"/>
                     <connections>
+                        <outlet property="cancelButton" destination="cqe-9x-7hi" id="VET-2C-Myz"/>
+                        <outlet property="flipCameraButton" destination="zbV-W7-o6R" id="1NB-U0-5JU"/>
+                        <outlet property="imageViewOverlay" destination="6vW-ya-d7n" id="TWV-4Q-7J8"/>
+                        <outlet property="sendImageButton" destination="hbQ-Rm-w8Y" id="nPv-PV-bob"/>
+                        <outlet property="takePhotoButton" destination="Xwg-R0-wI2" id="kb1-AD-Sp5"/>
                         <segue destination="4ll-MP-AHU" kind="show" identifier="imagePickerToChooseThread" id="YKG-5k-lSO"/>
                     </connections>
                 </viewController>
@@ -211,11 +219,11 @@
                         <viewControllerLayoutGuide type="bottom" id="rkD-wp-LIN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XGy-r5-OLe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="83" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RsW-xC-YoJ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="572"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="479"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chooseThreadCell" rowHeight="83" id="HbM-qq-oGu" customClass="ChooseThreadTableViewCell" customModule="snapChatProject" customModuleProvider="target">
@@ -244,7 +252,7 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBg-zh-tVg">
-                                <rect key="frame" x="0.0" y="592" width="375" height="75"/>
+                                <rect key="frame" x="0.0" y="479" width="375" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laW-jg-H6C">
                                         <rect key="frame" x="320" y="20" width="35" height="35"/>

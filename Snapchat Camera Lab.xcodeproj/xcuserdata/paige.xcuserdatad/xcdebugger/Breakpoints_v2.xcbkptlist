@@ -15,8 +15,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
             endingLineNumber = "64"
-            landmarkName = "takePhoto(_:)"
-            landmarkType = "7">
+            landmarkName = "ImagePickerViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -31,40 +31,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
             endingLineNumber = "62"
-            landmarkName = "takePhoto(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "snapChatProject.ImagePickerViewController.takePhoto (__ObjC.UIButton) -&gt; ()"
-                  moduleName = "snapChatProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paige/Desktop/lab5/Snapchat%20Camera/ImagePickerViewController.swift"
-                  timestampString = "511266357.288632"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "snapChatProject.ImagePickerViewController.takePhoto (__ObjC.UIButton) -&gt; ()"
-                  moduleName = "snapChatProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paige/Desktop/lab5/Snapchat%20Camera/ImagePickerViewController.swift"
-                  timestampString = "511266357.291085"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "96">
-               </Location>
-            </Locations>
+            landmarkName = "ImagePickerViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
