@@ -117,8 +117,7 @@ Time to get our hands dirty - copy and paste this daunting looking piece of code
                             if let previewLayer = previewLayer { /* TODO: replace this line by creating preview layer from session */
                                 view.layer.addSublayer(previewLayer)
                                 previewLayer.frame = view.layer.frame
-                                // TODO: start running your 
-				phosession
+                                // TODO: start running your session
                             }
                         }
                     }
