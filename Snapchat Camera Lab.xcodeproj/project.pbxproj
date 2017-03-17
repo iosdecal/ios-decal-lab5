@@ -169,7 +169,6 @@
 				TargetAttributes = {
 					4196F2C61E6509E8009916E4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HM36DDY9LB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -342,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HM36DDY9LB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Snapchat Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClone;
@@ -355,7 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HM36DDY9LB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Snapchat Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClone;
