@@ -13,11 +13,23 @@ Tuesday, March 21st at 11:59 pm
 
 In today's lab, you'll get some experience with part of AVFoundation by creating a camera for your Snapchat Clone, while also becoming more familiar with handling user permissions and looking up information in Apple Developer Documentation. Since this lab requires a hardware camera, you'll be testing your application on an iOS device (iPhone/iPad), rather than in the simulator. Since not all students will have iOS devices, **please partner up with another student who does not have an iPhone/iPad or USB cable if you have iOS device with you.**
 
-To begin this lab, clone this repository onto your own computer:
-	
-	git clone https://github.com/iosdecal/ios-decal-lab5
+## Getting Started ##
 
-## Getting Started 
+For this lab, we will be requiring everyone to submit via the GitHub submission method on Gradescope. If you are unfamiliar with git, this will be good practice for your final project (in which you will need to use git).
+
+Instead of downloading the lab as a zip, you'll need to create a new repository for your changes. You can do this by tapping on "Fork" in the top right of this page. Then open up your terminal, navigate to the directory you want to put your lab in (i.e. `cd Desktop`), and clone your repository using the following command (replace YOUR-USERNAME with your github username). 
+	
+	git clone https://github.com/YOUR-USERNAME/ios-decal-lab5
+
+This will create a repository on your computer that you can commit and push your changes to (it's good practice to do this frequently). When you are done with the lab make sure you add all of your files to your repository, and push the changes. You can do this using the following commands in your `ios-decal-lab5` folder (type `cd ios-decal-lab5` into terminal to get into the directory if you are not yet in it)
+
+	git add .
+	git commit -m "Finished lab 5"
+	git push origin master
+	
+Once you have done this, you can view the files you pushed at https://github.com/YOUR-USERNAME/ios-decal-lab5. You can then use this repository to submit via Gradescope when you are finished (see the **Submission** section below).
+
+## Getting Started ##
 
 Open the project in Xcode and go into the project navigator. Having finished Project 2 Part 1, you should already be familiar with the code provided. 
 
@@ -197,4 +209,4 @@ Checkoff Form for  Akilesh's Lab -
 
 Checkoff Form for Paige's Lab - https://goo.gl/forms/OqOShJa2FmdCbLoi1
 
-Alternatively you can submit your lab as a zip folder. To do this please open your ios-decal-lab3 folder, and compress the contents inside (not the folder itself). This should generate a file, **Archive.zip**, that you can submit to Gradescope.
+If you are unable to submit via GitHub you can submit your lab as a zip folder (**Note: there will a very good chance we will need to e-mail you asking you to re-submit due to Gradescope zip submission bugs**). To do this please open your ios-decal-lab3 folder, and compress the contents inside (not the folder itself). This should generate a file, **Archive.zip**, that you can submit to Gradescope.
