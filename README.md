@@ -126,7 +126,7 @@ Time to get our hands dirty - copy and paste this daunting looking piece of code
         }
     }
     
-**Before you try fixing this method, add a function call to `captureNewSession(devicePostion: nil)` to your `viewDidLoad()` method, and  try running your app on your device.** You may get following error (if you don't continue with the lab. You will probably need to refer back to this section later on, since you will get this error at some point):  
+**Before you try fixing this method, add a function call to `captureNewSession(devicePostion: nil)` to your `viewDidLoad()` method, and  try running your app on your device.** You may get following error (if you don't, just continue on with the lab. You will probably need to refer back to this section later on, since you will get this error at some point):  
 
 > This app has crashed because it attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an SOME-DESCRIPTION-KEY-NAME key with a string value explaining to the user how the app uses this data.
 
