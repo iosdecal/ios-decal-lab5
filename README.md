@@ -126,12 +126,11 @@ Time to get our hands dirty - copy and paste this daunting looking piece of code
         }
     }
     
-**Before you try fixing this method, add a function call to `captureNewSession(devicePostion: nil)` to your `viewDidLoad()` method, and  try running your app on your device.** You'll be greeted by the following error:  
+**Before you try fixing this method, add a function call to `captureNewSession(devicePostion: nil)` to your `viewDidLoad()` method, and  try running your app on your device.** You may get following error (if you don't continue with the lab. You will probably need to refer back to this section later on, since you will get this error at some point):  
 
 > This app has crashed because it attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an SOME-DESCRIPTION-KEY-NAME key with a string value explaining to the user how the app uses this data.
 
-All this means is that we need to provide a message to our users asking for permission to use their camera. Let's take a detour from our code to do that now.
-
+All this means is that we need to provide a message to our users asking for permission to use their camera. Let's take a detour from our code to do that now. 
 ### Getting User Permission for Camera Access ##
 
 To request permission to use the user's camera, you'll need to do the following (see the image below for clarification):
